@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+:root {
+    --purple: #6532E7;
+    --pink: #CF60EA;
+    --azure: #1CD1EC;
+    --blue: #1369EB;
+    --green: #00E293;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+}
+
+a:link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    opacity: 70%;
+}
+
+a:current {
+    text-decoration: underline;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+    margin-top: 160px;
+}
+
+.btn {
+    color: aliceblue;
+    font-family: inherit;
+    font-size: 32px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: max-content;
+}
+
+.btn:hover {
+    color: black !important;
+    background-color: aliceblue !important;
+    text-decoration: none;
+}
+
+.btn:active {
+    opacity: 70%;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: black;
+    border-radius: 0px 0px 30px 30px;
+
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu > li {
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.menu > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.name {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--purple);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.name:hover {
+    text-decoration: none !important;
+    cursor: default !important;
+    font-weight: bold;
+}
+
+.sign {
+    color: var(--pink) !important;
+}
+
+.powertext {
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.card-search {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 7px;
+    margin: 20px;
+    
+
+    border-color: var(--azure);
+    color: var(--azure);
+}
+
+.card-search .btn {
+    background-color: var(--azure);
+}
+
+.card-create {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 7px;
+    margin: 20px;
+
+    border-color: var(--pink);
+    color: var(--pink);
+}
+
+.card-create .btn {
+    background-color: var(--pink);
+}
+
+.card-share {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 7px;
+    margin: 20px;
+
+    border-color: var(--green);
+    color: var(--green);
+}
+
+.card-share .btn {
+    background-color: var(--green);
+}
+
+.contain-products {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.items {
+    text-align: center;
+    display: grid;
+    height: 200px;
+    align-content: center;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+}
+
+.product {
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 5px;
+}
+
+.product img {
+    width: 200px;
+}
+
+.appname {
+    color: black !important;
+}
+
+.copyright {
+    padding: 40px;
+    text-align: center;
+}
